@@ -49,13 +49,13 @@ function Counter() {
         {/* Control buttons */}
         <div style={{ margin: '20px 0' }}>
           <button className="button" onClick={decrement}>
-            - Decrease
+            - Decrease by 
           </button>
           <button className="button secondary" onClick={reset}>
             🔄 Reset
           </button>
           <button className="button" onClick={increment}>
-            + Increase
+            + Increase by 
           </button>
         </div>
         
